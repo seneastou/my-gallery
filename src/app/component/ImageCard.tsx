@@ -49,6 +49,7 @@ export default function ImageCard({ imageUrl, onClick, category, imageId }: Imag
     >
       <img
         src={imageUrl}
+        loading="lazy"
         alt="Gallery Image"
         className="w-full h-72 object-cover"
       />
